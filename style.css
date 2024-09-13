@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -39,7 +41,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -50,7 +52,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-    color: #fff;
+    color: #ffffff;
     background-color: #000000;
 }
 
@@ -133,14 +135,8 @@ ul li {
     margin-bottom: 0.5em;
 }
 
-.contact-info a {
-    color: #000000;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.contact-info a:hover {
-    color: #000000;
+.contact-info{
+align-items: center;
 }
 
 @media (max-width: 768px) {
